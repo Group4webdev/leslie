@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<title>Pet Food Website</title>
+<head>
+<link rel = "icon" href = "https://cdn.dribbble.com/users/1188402/screenshots/6386074/kmc-icon.png?compress=1&resize=400x300" type = "image/x-icon"; shape = "circle">
+</head>
+<body bgcolor="#4580b0" style="margin:0";>
+
+<br>	
+
+<a href = "petshop.html" style = "color:black"><font face="Comic Sans MS" size="5" style = "margin-left: 25px">
+<u>&lt; Go Back</u>
+</font>
+</a>
+
+<!-----LOGIN----->
+<div>
+<br>
+<br>
+
+
+<h1 align = "center" style = "color:green; font-family:Comic Sans MS"> Login </h1>
+
+<form action="petshop.html" width = "100%">
+<fieldset style = "width:750px; margin:auto; background-color:white; padding: 0 10px 10px; border: 1px solid #666; border-radius: 8px; box-shadow: 0 0 10px #666; padding-top: 10px;">
+<table margin = "1">
+<tr>
+<td>
+<img src="https://64.media.tumblr.com/ebae62d84c1bb08273ea24f0c91c0800/tumblr_n25yl7nJPg1qji3sdo1_640.jpg" width = "300" height = "270">
+</td>
+<td>
+<table>	
+<hr>
+<br>
+<br>
+<br>
+<br>
+	<tr>
+	<td><label for = "username"><font face = "Comic Sans MS">Email: </font></label></td>
+	<td width = "300"><center><input type = "email" placeholder = " Your Email Address" name = "username" id = "username" required style = "width:97%"></td></center>
+	</tr>
+	
+	<tr>
+	<td><label for = "password"><font face = "Comic Sans MS">Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></label></td>
+	<td width = "300"><center><input type = "password" placeholder = " Your Password" name = "password" id = "password" style = "width:97%"></td></center>
+	</tr>
+	
+	<tr>
+	<td></td>
+	<td><p>Don't have an account? <font color = "blue" style = "text-decoration:underline"><a href = "#register">Create Account</font></a></p></td>
+	</tr>
+</table>
+
+
+<div>
+<center>
+            <button type = "submit"><font face = "Comic Sans MS">Login</font></button>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		
+            <button type="reset" id = "reset"><font face = "Comic Sans MS">Reset</font></button>
+</center>
+</div>
+<br>
+<br>
+<br>
+<hr>
+</fieldset>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<!-----END OF LOGIN----->
+<br><br><br><br>
+<!-----REGISTER----->
+<div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 align = "center" id = "register" style = "color:green; font-family:Comic Sans MS"> Register </h1>
+
+<fieldset style = "width:750px; margin:auto; background-color:white; padding: 0 10px 10px; border: 1px solid #666; border-radius: 8px; box-shadow: 0 0 10px #666;padding-top: 10px;">
+<form action="/registration_page.php" width = "100%">
+<table>
+<tr>
+<td>
+<img src = "https://img.freepik.com/free-vector/cute-panda-drawing-with-crayon-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated_138676-4542.jpg?w=2000" width = "300"  height = "270">
+</td>
+<td>
+<table>	
+<hr>
+<br>
+	<tr>
+	<td><label for = "email"><font face = "Comic Sans MS"> Email: </font></label></td>
+	<td width = "300"><center><input type = "email" placeholder = " Your Email Address" name = "emailr" id = "emailr" required style = "width:97%"></td></center>
+	</tr>
+	
+	<tr>
+	<td><label for = "passwordr"><font face = "Comic Sans MS">Password:&nbsp;&nbsp;</font></label></td>
+	<td width = "300"><center><input type = "password" placeholder = " Your Password" name = "passwordr" id = "passwordr" required style = "width:97%"></td></center>
+	</tr>
+	
+	<tr>
+	<td><label for = "fname"><font face = "Comic Sans MS">First Name: </font></label></td>
+	<td width = "300"><input type = "text" name = "fname" id = "fname" maxlength = "30" required style = "width:97%"></td>
+	</tr>
+	
+	<tr>
+	<td><label for = "lname"><font face = "Comic Sans MS">Last Name: </font></label></td>
+	<td width = "300"><center><input type = "text" name = "lname" id = "lname" maxlength ="30" style = "width:97%"></td></center>
+	</tr>
+	
+	<tr>
+	<td><label for = "bday"><font face = "Comic Sans MS">Birthdate: </font></label></td>
+	<td width = "300"><center><input type = "date" name = "bday" id = "bday" required style = "width:98%"></td></center>
+	</tr>
+	
+	<tr>
+	<td><label for = "phone"><font face = "Comic Sans MS">Phone Number: </font></label></td>
+	<td width = "300"><center><input type = "tel" name = "phone" id = "phone" maxlength = "11" required style = "width:97%"></td></center>
+	</tr>
+	
+	<tr>
+	<td>
+	<label for = "gender"><font face = "Comic Sans MS">Gender: </font></label>
+	</td>
+	<td id = "gender">
+		<input type="radio" value="none" id="male" name="gender" checked/>
+        <label for="male" class="radio">Male</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" value="none" id="female" name="gender" />
+        <label for="female" class="radio">Female</label>
+	</td>
+	</tr>
+</table>
+
+<br>
+
+<center>
+        <button type="submit"><font face = "Comic Sans MS">Register</font></button>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			
+        <button type="reset"><font face = "Comic Sans MS">Reset</font></button>
+</center>
+<hr>
+</form>
+</td>
+</tr>
+</table>
+</fieldset>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+<hr color = "black" style = "margin-bottom: 0">
+<footer>
+<table align = "center" width = "0%" style = "background-color:#173b75">
+<tr>
+<td align = "center">
+<p><font face = "Comic Sans MS">Created by Group#4 | Project Website</p>
+</td>
+</tr>
+</table>
+</footer>
+</html>
